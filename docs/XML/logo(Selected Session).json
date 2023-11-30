@@ -1,0 +1,285 @@
+[
+    {
+        "Earside": "Right",
+        "ConductionTypes": "FF",
+        "SpeechPoint": [
+            {
+                "Score": 50,
+                "WordsRepeatedCorrect": 20,
+                "Intensity1": 30,
+                "Wordlist": "Pista 6",
+                "IntensityCh1": -2147483648,
+                "IntensityCh2": -2147483648,
+                "Intensity1Masked": -2147483648,
+                "SpeechWord": [
+                    {
+                        "Word": "Noche",
+                        "RepeatedCorrectly": "True"
+                    },
+                    {
+                        "Word": "Montón",
+                        "RepeatedCorrectly": "True"
+                    },
+                    {
+                        "Word": "Tiempo",
+                        "RepeatedCorrectly": "True"
+                    },
+                    {
+                        "Word": "Cada",
+                        "RepeatedCorrectly": "False"
+                    },
+                    {
+                        "Word": "Coche",
+                        "RepeatedCorrectly": "False"
+                    },
+                    {
+                        "Word": "Saca",
+                        "RepeatedCorrectly": "False"
+                    },
+                    {
+                        "Word": "Fleco",
+                        "RepeatedCorrectly": "True"
+                    },
+                    {
+                        "Word": "Sartén",
+                        "RepeatedCorrectly": "False"
+                    },
+                    {
+                        "Word": "Perros",
+                        "RepeatedCorrectly": "True"
+                    },
+                    {
+                        "Word": "Mantel",
+                        "RepeatedCorrectly": "True"
+                    },
+                    {
+                        "Word": "Hierba",
+                        "RepeatedCorrectly": "False"
+                    },
+                    {
+                        "Word": "Curas",
+                        "RepeatedCorrectly": "False"
+                    },
+                    {
+                        "Word": "Bajo",
+                        "RepeatedCorrectly": "False"
+                    },
+                    {
+                        "Word": "Tía",
+                        "RepeatedCorrectly": "False"
+                    },
+                    {
+                        "Word": "Llaves",
+                        "RepeatedCorrectly": "False"
+                    },
+                    {
+                        "Word": "Cientos",
+                        "RepeatedCorrectly": "False"
+                    },
+                    {
+                        "Word": "Vuelas",
+                        "RepeatedCorrectly": "True"
+                    },
+                    {
+                        "Word": "Ruegas",
+                        "RepeatedCorrectly": "True"
+                    },
+                    {
+                        "Word": "Pelas",
+                        "RepeatedCorrectly": "True"
+                    },
+                    {
+                        "Word": "Luces",
+                        "RepeatedCorrectly": "True"
+                    }
+                ]
+            },
+            {
+                "Score": 68,
+                "WordsRepeatedCorrect": 25,
+                "Intensity1": 40,
+                "Wordlist": "Pista 7",
+                "IntensityCh1": -2147483648,
+                "IntensityCh2": -2147483648,
+                "Intensity1Masked": -2147483648,
+                "SpeechWord": [
+                    {
+                        "Word": "Alzar",
+                        "RepeatedCorrectly": "True"
+                    },
+                    {
+                        "Word": "Leyes",
+                        "RepeatedCorrectly": "True"
+                    },
+                    {
+                        "Word": "Hacha",
+                        "RepeatedCorrectly": "True"
+                    },
+                    {
+                        "Word": "Ese",
+                        "RepeatedCorrectly": "True"
+                    },
+                    {
+                        "Word": "Fuente",
+                        "RepeatedCorrectly": "True"
+                    },
+                    {
+                        "Word": "Pintor",
+                        "RepeatedCorrectly": "True"
+                    },
+                    {
+                        "Word": "Mesa",
+                        "RepeatedCorrectly": "True"
+                    },
+                    {
+                        "Word": "Justa",
+                        "RepeatedCorrectly": "True"
+                    },
+                    {
+                        "Word": "Hijas",
+                        "RepeatedCorrectly": "True"
+                    },
+                    {
+                        "Word": "Cinco",
+                        "RepeatedCorrectly": "True"
+                    },
+                    {
+                        "Word": "Brisa",
+                        "RepeatedCorrectly": "True"
+                    },
+                    {
+                        "Word": "Torres",
+                        "RepeatedCorrectly": "False"
+                    },
+                    {
+                        "Word": "Nubes",
+                        "RepeatedCorrectly": "False"
+                    },
+                    {
+                        "Word": "Terca",
+                        "RepeatedCorrectly": "False"
+                    },
+                    {
+                        "Word": "Borde",
+                        "RepeatedCorrectly": "False"
+                    },
+                    {
+                        "Word": "Sueño",
+                        "RepeatedCorrectly": "False"
+                    },
+                    {
+                        "Word": "Pila",
+                        "RepeatedCorrectly": "False"
+                    },
+                    {
+                        "Word": "Mero",
+                        "RepeatedCorrectly": "True"
+                    },
+                    {
+                        "Word": "Humo",
+                        "RepeatedCorrectly": "True"
+                    },
+                    {
+                        "Word": "Dejo",
+                        "RepeatedCorrectly": "True"
+                    },
+                    {
+                        "Word": "Choca",
+                        "RepeatedCorrectly": "True"
+                    },
+                    {
+                        "Word": "Bondad",
+                        "RepeatedCorrectly": "False"
+                    },
+                    {
+                        "Word": "Tiendo",
+                        "RepeatedCorrectly": "True"
+                    },
+                    {
+                        "Word": "Lunes",
+                        "RepeatedCorrectly": "True"
+                    },
+                    {
+                        "Word": "Alga",
+                        "RepeatedCorrectly": "False"
+                    }
+                ]
+            },
+            {
+                "Score": 88,
+                "WordsRepeatedCorrect": 16,
+                "Intensity1": 50,
+                "Wordlist": "Pista 8",
+                "IntensityCh1": -2147483648,
+                "IntensityCh2": -2147483648,
+                "Intensity1Masked": -2147483648,
+                "SpeechWord": [
+                    {
+                        "Word": "Moza",
+                        "RepeatedCorrectly": "True"
+                    },
+                    {
+                        "Word": "Veo",
+                        "RepeatedCorrectly": "True"
+                    },
+                    {
+                        "Word": "Lado",
+                        "RepeatedCorrectly": "True"
+                    },
+                    {
+                        "Word": "Osa",
+                        "RepeatedCorrectly": "True"
+                    },
+                    {
+                        "Word": "Usen",
+                        "RepeatedCorrectly": "True"
+                    },
+                    {
+                        "Word": "Orden",
+                        "RepeatedCorrectly": "False"
+                    },
+                    {
+                        "Word": "Lengua",
+                        "RepeatedCorrectly": "False"
+                    },
+                    {
+                        "Word": "Fresa",
+                        "RepeatedCorrectly": "True"
+                    },
+                    {
+                        "Word": "Copias",
+                        "RepeatedCorrectly": "True"
+                    },
+                    {
+                        "Word": "Callos",
+                        "RepeatedCorrectly": "True"
+                    },
+                    {
+                        "Word": "Gaita",
+                        "RepeatedCorrectly": "True"
+                    },
+                    {
+                        "Word": "Riña",
+                        "RepeatedCorrectly": "True"
+                    },
+                    {
+                        "Word": "Bedel",
+                        "RepeatedCorrectly": "True"
+                    },
+                    {
+                        "Word": "Tecla",
+                        "RepeatedCorrectly": "True"
+                    },
+                    {
+                        "Word": "Pleno",
+                        "RepeatedCorrectly": "True"
+                    },
+                    {
+                        "Word": "Mote",
+                        "RepeatedCorrectly": "True"
+                    }
+                ]
+            }
+        ]
+    }
+]

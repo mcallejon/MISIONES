@@ -1,0 +1,196 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pacientes",
+  "info": {
+    "name": "Pacientes",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Identificador": {
+      "type": "string",
+      "unique": true,
+      "required": false
+    },
+    "Identificador_anterior": {
+      "type": "string",
+      "private": true
+    },
+    "Identificador_temporal": {
+      "type": "string",
+      "private": true
+    },
+    "NUHSA": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "Nombre": {
+      "type": "string",
+      "required": true
+    },
+    "Apellidos": {
+      "type": "string",
+      "required": true
+    },
+    "Tipo_de_paciente": {
+      "type": "enumeration",
+      "enum": [
+        "Normoyente",
+        "Implantado",
+        "Hipoacusia"
+      ],
+      "required": true,
+      "default": "Normoyente"
+    },
+    "Fecha_de_nacimiento": {
+      "type": "string",
+      "required": true
+    },
+    "Edad": {
+      "type": "integer",
+      "required": false
+    },
+    "Sexo": {
+      "type": "enumeration",
+      "enum": [
+        "Hombre",
+        "Mujer"
+      ],
+      "required": true
+    },
+    "Telefono": {
+      "type": "string",
+      "required": false
+    },
+    "Ciudad": {
+      "type": "string",
+      "required": false
+    },
+    "Email": {
+      "type": "email"
+    },
+    "Numero_de_visitas_corticales": {
+      "type": "integer"
+    },
+
+    "Numero_de_visitas_audiometria": {
+      "type": "integer"
+    },
+    "Numero_de_visitas_programacion": {
+      "type": "integer"
+    },
+    "Numero_de_visitas_pupilometria": {
+      "type": "integer"
+    },
+    "Numero_de_visitas_neuroimagen": {
+      "type": "integer"
+    },
+    "Numero_de_visitas_llamada": {
+      "type": "integer"
+    },
+    "Numero_de_visitas_total": {
+      "type": "integer"
+    },
+    "Ultimo_logo": {
+      "type": "integer"
+    },
+    "Ultima_intensidad": {
+      "type": "integer"
+    },
+    "Observaciones": {
+      "type": "text"
+    },
+    "Fecha_de_implantacion": {
+      "type": "date"
+    },
+    "Fecha_de_implantacion_od": {
+      "type": "date"
+    },
+    "Fecha_de_implantacion_oi": {
+      "type": "date"
+    },
+    "Electrodos_insertados": {
+      "type": "integer"
+    },
+    "Electrodos_insertados_od": {
+      "type": "integer"
+    },
+    "Electrodos_insertados_oi": {
+      "type": "integer"
+    },
+    "Casa_comercial_implantada_od": {
+      "type": "enumeration",
+      "enum": [
+        "OTICON",
+        "MEDEL",
+        "AB",
+        "COCHLEAR"
+      ]
+    },
+    "Casa_comercial_implantada_oi": {
+      "type": "enumeration",
+      "enum": [
+        "OTICON",
+        "MEDEL",
+        "AB",
+        "COCHLEAR"
+      ]
+    },
+    "Tipo_perdida_od": {
+      "type": "enumeration",
+      "enum": [
+        "Hipoacusia leve",
+        "Hipoacusia moderada",
+        "Hipoacusia severa",
+        "Hipoacusia profunda",
+        "Cofosis"
+      ]
+    },
+    "Audifonos_od": {
+      "type": "enumeration",
+      "enum": [
+        "Sí",
+        "No"
+      ]
+    },
+    "Tipo_perdida_oi": {
+      "type": "enumeration",
+      "enum": [
+        "Hipoacusia leve",
+        "Hipoacusia moderada",
+        "Hipoacusia severa",
+        "Hipoacusia profunda",
+        "Cofosis"
+      ]
+    },
+    "Audifonos_oi": {
+      "type": "enumeration",
+      "enum": [
+        "Sí",
+        "No"
+      ]
+    },
+    "Etiologia": {
+      "type": "string"
+    },
+    "Oido_implantado": {
+      "type": "enumeration",
+      "enum": [
+        "Izquierdo",
+        "Derecho",
+        "Bilateral"
+      ]
+    },
+    "Visitas": {
+      "type": "component",
+      "repeatable": true,
+      "component": "paciente.visita"
+    }
+  }
+}

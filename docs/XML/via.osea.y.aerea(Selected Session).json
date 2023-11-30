@@ -1,0 +1,65 @@
+[
+    {
+        "Earside": "Right",
+        "SignalType": "WarbleTone",
+        "ConductionTypes": "AC",
+        "Frequency": [
+            250,
+            500,
+            1000,
+            2000,
+            3000,
+            4000,
+            6000,
+            8000
+        ],
+        "IntensityUT": [
+            45,
+            50,
+            50,
+            50,
+            45,
+            55,
+            55,
+            65
+        ],
+        "IntensityMT": [
+            -2147483648,
+            -2147483648,
+            -2147483648,
+            -2147483648,
+            -2147483648,
+            -2147483648,
+            -2147483648,
+            -2147483648
+        ],
+        "IntensityMTMasked": -2147483648
+    },
+    {
+        "Earside": "Right",
+        "SignalType": "Tone",
+        "ConductionTypes": "BC",
+        "Frequency": [
+            250,
+            500,
+            1000,
+            2000,
+            4000
+        ],
+        "IntensityUT": [
+            15,
+            15,
+            15,
+            15,
+            15
+        ],
+        "IntensityMT": [
+            -2147483648,
+            -2147483648,
+            -2147483648,
+            -2147483648,
+            -2147483648
+        ],
+        "IntensityMTMasked": -2147483648
+    }
+]

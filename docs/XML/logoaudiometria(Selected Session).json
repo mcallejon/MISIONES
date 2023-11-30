@@ -1,0 +1,119 @@
+[
+    {
+        "Earside": "Right",
+        "ConductionTypes": "FF",
+        "SpeechPoint": [
+            {
+                "Score": 16,
+                "WordsRepeatedCorrect": 25,
+                "Intensity1": 60,
+                "Wordlist": "Pista 5",
+                "IntensityCh1": -2147483648,
+                "IntensityCh2": -2147483648,
+                "Intensity1Masked": -2147483648,
+                "SpeechWord": [
+                    {
+                        "Word": "Día",
+                        "RepeatedCorrectly": "False"
+                    },
+                    {
+                        "Word": "Uvas",
+                        "RepeatedCorrectly": "True"
+                    },
+                    {
+                        "Word": "Tiempo",
+                        "RepeatedCorrectly": "False"
+                    },
+                    {
+                        "Word": "Tiño",
+                        "RepeatedCorrectly": "True"
+                    },
+                    {
+                        "Word": "Tima",
+                        "RepeatedCorrectly": "False"
+                    },
+                    {
+                        "Word": "Pista",
+                        "RepeatedCorrectly": "False"
+                    },
+                    {
+                        "Word": "Pierna",
+                        "RepeatedCorrectly": "False"
+                    },
+                    {
+                        "Word": "Venas",
+                        "RepeatedCorrectly": "False"
+                    },
+                    {
+                        "Word": "Regla",
+                        "RepeatedCorrectly": "False"
+                    },
+                    {
+                        "Word": "Nunca",
+                        "RepeatedCorrectly": "False"
+                    },
+                    {
+                        "Word": "Lloras",
+                        "RepeatedCorrectly": "False"
+                    },
+                    {
+                        "Word": "Mudo",
+                        "RepeatedCorrectly": "False"
+                    },
+                    {
+                        "Word": "Creo",
+                        "RepeatedCorrectly": "False"
+                    },
+                    {
+                        "Word": "Cebra",
+                        "RepeatedCorrectly": "False"
+                    },
+                    {
+                        "Word": "Anda",
+                        "RepeatedCorrectly": "False"
+                    },
+                    {
+                        "Word": "Seas",
+                        "RepeatedCorrectly": "False"
+                    },
+                    {
+                        "Word": "Leche",
+                        "RepeatedCorrectly": "True"
+                    },
+                    {
+                        "Word": "Amén",
+                        "RepeatedCorrectly": "True"
+                    },
+                    {
+                        "Word": "Velo",
+                        "RepeatedCorrectly": "False"
+                    },
+                    {
+                        "Word": "Refrán",
+                        "RepeatedCorrectly": "False"
+                    },
+                    {
+                        "Word": "Nidos",
+                        "RepeatedCorrectly": "False"
+                    },
+                    {
+                        "Word": "Ligo",
+                        "RepeatedCorrectly": "False"
+                    },
+                    {
+                        "Word": "Gases",
+                        "RepeatedCorrectly": "False"
+                    },
+                    {
+                        "Word": "Corren",
+                        "RepeatedCorrectly": "False"
+                    },
+                    {
+                        "Word": "Cartel",
+                        "RepeatedCorrectly": "False"
+                    }
+                ]
+            }
+        ]
+    }
+]

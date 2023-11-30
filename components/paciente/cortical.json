@@ -1,0 +1,76 @@
+{
+  "collectionName": "components_patient_xml",
+  "info": {
+    "name": "cortical",
+    "icon": "audio-description",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "id_xml": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "filename": {
+      "type": "string"
+    },
+    "patient_id": {
+      "type": "string"
+    },
+    "birth_date": {
+      "type": "string"
+    },
+    "session_date": {
+      "type": "string"
+    },
+    "protocol": {
+      "type": "string"
+    },
+    "stimulus_side": {
+      "type": "string"
+    },
+    "stimulus_type": {
+      "type": "string"
+    },
+    "frequency": {
+      "type": "biginteger"
+    },
+    "intensity": {
+      "type": "integer"
+    },
+    "stimulus_polarity": {
+      "type": "string"
+    },
+    "stimulus_rate": {
+      "type": "decimal"
+    },
+    "sweeps_measured": {
+      "type": "integer"
+    },
+    "sweeps_rejected": {
+      "type": "integer"
+    },
+    "high_pass_hardware": {
+      "type": "string"
+    },
+    "low_pass_hardware": {
+      "type": "string"
+    },
+    "gain": {
+      "type": "integer"
+    },
+    "ipsi_a": {
+      "type": "json"
+    },
+    "ipsi_b": {
+      "type": "json"
+    },
+    "contra_a": {
+      "type": "json"
+    },
+    "contra_b": {
+      "type": "json"
+    }
+  }
+}

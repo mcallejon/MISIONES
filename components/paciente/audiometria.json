@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_paciente_audiometrias",
+  "info": {
+    "name": "Audiometria",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Nombre_archivo": {
+      "type": "string"
+    },
+    "Audiometria_izquierda": {
+      "type": "json"
+    },
+    "Audiometria_derecha": {
+      "type": "json"
+    },
+    "Audiometrias": {
+      "type": "json"
+    },
+    "Logo": {
+      "type": "json"
+    }
+  }
+}

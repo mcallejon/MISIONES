@@ -1,0 +1,12 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/",
+      "handler": "cargar-datos.index",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

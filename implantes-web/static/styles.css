@@ -1,0 +1,302 @@
+
+
+@font-face {
+  font-family: 'MyFont';
+  src: url('./assets/WixMadeforDisplay-VariableFont_wght.ttf');
+}
+
+a {
+  cursor: pointer;
+  color: #ff6600;
+  text-decoration: none;
+}
+
+body {
+  font-family: MyFont, Arial, sans-serif;
+  font-size: large;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+h1 {
+  text-align: center;
+  font-size: 28px;
+  transition: opacity 0.3s ease;
+}
+
+h1.title {
+  margin-bottom: 40px;
+}
+
+h1:hover {
+  opacity: 0.8;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  overflow-y: auto;
+}
+
+.container h2 {
+  text-align: center;
+  color: #ff6600;
+  font-size: 28px;
+  margin-top: 0;
+  padding-top: 10px;
+  transition: opacity 0.3s ease;
+}
+
+.highlight {
+  color: #ff6600;
+}
+
+.section {
+  margin-top: 40px;
+}
+
+
+header {
+  background-color: #333;
+  padding: 10px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  height: 30px;
+}
+
+.header-expanded {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-expanded .logo-container {
+  margin-bottom: 20px;
+}
+
+.header-expanded .nav-links {
+  display: block;
+}
+
+.header-expanded .nav-links a {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.logo:hover {
+  transform: rotate(360deg);
+}
+
+.logo-text a {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+
+.logo-text a:hover {
+  color: coral;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  font-weight: bold;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.nav-links a:hover {
+  background-color: #666;
+  padding: 10px;
+}
+
+.menu-icon {
+  display: none;
+}
+
+.menu-icon-exit {
+  display: none;
+}
+
+.responsive-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  height: 100%;
+}
+
+.responsive-menu a {
+  display: none;
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.responsive-menu.active a {
+  display: block;
+}
+
+.responsive-menu {
+  display: none;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  overflow-y: auto;
+}
+
+.container form {
+  max-width: 300px;
+  margin: 40px auto;
+}
+
+.container h2 {
+  text-align: center;
+  color: #ff6600;
+  font-size: 28px;
+  margin-top: 0;
+  padding-top: 10px;
+  transition: opacity 0.3s ease;
+}
+
+.container label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.container input[type="text"],
+.container input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.container input[type="password"] {
+  margin-bottom: 20px;
+}
+
+.container button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #ff6600;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  box-sizing: border-box;
+}
+
+.container button[type="submit"]:hover {
+  background-color: #e64d00;
+}
+
+
+@media only screen and (max-width: 700px) {
+  .nav-links {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+  }
+
+  .menu-icon-exit {
+    display: none;
+    position: absolute;
+    font-size: 30px;
+    right: 10px;
+  }
+
+  .menu-icon-exit.active {
+    top: 20px;
+    right: 20px;
+    display: block;
+    z-index: 2;
+  }
+
+  .menu-icon-exit.active:hover {
+    display: block;
+    color: darkseagreen;
+    font-weight: bold;
+  }
+
+  .menu-icon a {
+    padding-right: 1000px;
+  }
+
+  .responsive-menu.active {
+    padding-top: 60px;
+    display: block;
+    top: 0px;
+    width: 100%;
+    position: fixed;
+    height: 100%;
+    left: 0;
+    background-color: #333;
+    text-align: center;
+    font-size: 23px;
+    z-index: 1;
+  }
+
+  .responsive-menu.active a {
+    margin-right: 0;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    vertical-align: middle;
+  }
+
+  .responsive-menu a:hover {
+    background-color: #666;
+  }
+}
+

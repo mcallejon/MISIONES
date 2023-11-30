@@ -1,0 +1,177 @@
+{
+  "collectionName": "components_paciente_visitas",
+  "info": {
+    "name": "Visita",
+    "icon": "heartbeat",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Identificador": {
+      "type": "string",
+      "required": false
+    },
+    "Identificador_anterior": {
+      "type": "string"
+    },
+    "Identificador_temporal": {
+      "type": "string"
+    },
+    "Fecha_visita": {
+      "type": "date",
+      "required": true
+    },
+    "Tipo_visita": {
+      "type": "enumeration",
+      "enum": [
+        "Corticales",
+        "Audiometría",
+		"Potenciales de tronco",
+        "Programación",
+        "Pupilometría",
+        "Neuroimagen",
+        "Llamada"
+      ],
+      "default": "Corticales",
+      "required": true
+    },
+    "Tipo_cortical": {
+      "type": "enumeration",
+      "enum": [
+        "Inserción",
+        "Campo libre",
+	"Eléctrico"
+      ]
+    },
+
+    "Logo_audiometria_od": {
+      "type": "integer"
+    },
+    "Logo_audiometria_oi": {
+      "type": "integer"
+    },
+    "Impedancia": {
+      "type": "decimal"
+    },
+    "Intensidad_logo_od": {
+      "type": "integer"
+    },
+    "Intensidad_logo_oi": {
+      "type": "integer"
+    },
+    "Lateralidad": {
+      "type": "enumeration",
+      "enum": [
+        "Diestro",
+        "Zurdo",
+        "Ambidiestro"
+      ]
+    },
+    "Ubicacion_audiometria": {
+      "type": "enumeration",
+      "enum": [
+        "Cabina",
+        "Espacio sonoro"
+      ]
+    },
+    "Tipo_visita_programacion": {
+      "type": "enumeration",
+      "enum": [
+        "Activación",
+        "Seguimiento"
+      ]
+    },
+    "Grado_satisfaccion": {
+      "type": "enumeration",
+      "enum": [
+        "Bajo",
+        "Medio",
+        "Alto"
+      ]
+    },
+    "Grado_adaptacion": {
+      "type": "enumeration",
+      "enum": [
+        "Bajo",
+        "Medio",
+        "Alto"
+      ]
+    },
+    "Grado_colaboracion": {
+      "type": "enumeration",
+      "enum": [
+        "Bajo",
+        "Medio",
+        "Alto"
+      ]
+    },
+    "Grado_apoyo_familiar": {
+      "type": "enumeration",
+      "enum": [
+        "Bajo",
+        "Alto"
+      ]
+    },
+    "Modelo_procesador": {
+      "type": "enumeration",
+      "enum": [
+        "Neuro1",
+        "Neuro2",
+        "Neuro3"
+      ]
+    },
+    "Uso_audifono": {
+      "type": "enumeration",
+      "enum": [
+        "Sí",
+        "No"
+      ]
+    },
+    "Impedancias_telemetria": {
+      "type": "enumeration",
+      "enum": [
+        "OK",
+        "Fallo"
+      ]
+    },
+    "Consumo_energia": {
+      "type": "enumeration",
+      "enum": [
+        "Bueno",
+        "Malo"
+      ]
+    },
+    "Logopedia": {
+      "type": "enumeration",
+      "enum": [
+        "Sí",
+        "No"
+      ]
+    },
+    "Electrodos_desactivados": {
+      "type": "integer"
+    },
+    "Valoracion_global": {
+      "type": "enumeration",
+      "enum": [
+        "Muy buena",
+        "Buena",
+        "Normal",
+        "Mala"
+      ]
+    },
+    "Observaciones": {
+      "type": "text"
+    },
+    "Corticales": {
+      "type": "component",
+      "repeatable": true,
+      "component": "paciente.cortical"
+    },
+    "Audiometrias": {
+      "type": "component",
+      "repeatable": true,
+      "component": "paciente.audiometria"
+    }
+  }
+}
